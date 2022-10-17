@@ -10,7 +10,7 @@ import shutil
 
 # this was the path on one of the CVN machines, 
 # but the path this should execute in might be 
-# smb://128.59.106.65/cvnsyn_45b/Course Backups/2021 or something
+# smb://SERVER_IP/cvnsyn_45b/Course Backups/2021 or something
 path = '/Users/cvn-cc-9/Desktop/testEnv/2023/'
 for folder, subfolders, files in os.walk(path):
 	if folder != path:
